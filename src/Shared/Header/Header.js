@@ -9,16 +9,15 @@ const Header = () => {
       <Navbar variant="dark">
         <Container>
           <Navbar.Brand href="#home">
-            {" "}
             <span>Fotografa</span>
-            <img height="50" src={logo} alt="Photographer Guy" />
+            {/* <img src={logo} alt="Photographer Guy" /> */}
           </Navbar.Brand>
           <Nav className="ms-auto">
             <Nav.Link to="/home">Home</Nav.Link>
-            <Nav.Link href="#features">Services</Nav.Link>
-            <Nav.Link href="#pricing">About</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
-            <Nav.Link href="#pricing">Login</Nav.Link>
+            <Nav.Link href="/service">Services</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/contact">Login</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

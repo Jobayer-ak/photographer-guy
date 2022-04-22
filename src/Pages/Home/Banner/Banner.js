@@ -5,8 +5,13 @@ import bannerImage from "../../../images/banner/banner.png";
 const Banner = () => {
   return (
     <div className="container">
-      <div className="banner d-flex">
-        <img src={bannerImage} className="banner-img me-4" alt="Banner Image" />
+      <div className="banner">
+        <img
+          src={bannerImage}
+          className="banner-img me-4 img-fluid"
+          alt="Banner Image"
+        />
+
         <div className="about-me ms-3 px-3">
           <h2 className="text-center about-header">About Me</h2>
           <p className="lead">

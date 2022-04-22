@@ -7,19 +7,45 @@ import "./Service.css";
 
 const Service = () => {
   return (
-    <div className="container d-flex service">
+    <div className="container service">
       {/* <h2 className="text-center text-white">This is Service</h2> */}
-      <div className="service-1">
-        <img src={service1} alt="" />
-        <h4 className="text-white text-center">Wedding Photography</h4>
-      </div>
-      <div className="service-2">
-        <img src={service2} alt="" />
-        <h4 className="text-white text-center">Event Photography</h4>
-      </div>
-      <div className="service-3">
-        <img src={service3} alt="" />
-        <h4 className="text-white text-center">Birthday Photography</h4>
+      <div className="row gx-5 ms-3 p-0">
+        <div className="col service-1 text-center">
+          <img src={service1} alt="" />
+          <h4 className="text-white text-center">Wedding Photography</h4>
+          <p className="text-white p-2 text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repudiandae quis qui impedit non ad commodi numquam reiciendis et
+            odio dolorum.
+          </p>
+          <button className="btn btn-info w-100 text-white fs-5">
+            Booking
+          </button>
+        </div>
+        <div className="col service-2">
+          <img src={service2} alt="" />
+          <h4 className="text-white text-center">Event Photography</h4>
+          <p className="text-white p-2 text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repudiandae quis qui impedit non ad commodi numquam reiciendis et
+            odio dolorum.
+          </p>
+          <button className="btn btn-info w-100 text-white fs-5">
+            Booking
+          </button>
+        </div>
+        <div className="col service-3">
+          <img src={service3} alt="" />
+          <h4 className="text-white text-center">Birthday Photography</h4>
+          <p className="text-white p-2 text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repudiandae quis qui impedit non ad commodi numquam reiciendis et
+            odio dolorum.
+          </p>
+          <button className="btn btn-info w-100 text-white fs-5">
+            Booking
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -1,15 +1,17 @@
 .banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 84px;
+    margin-bottom: 85px;
 }
+
 .about-me{
     background-color: #C4C4C4;
-    /* padding: 10px; */
 }
 .about-header{
     margin-top: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .banner-img{
-    width: 50%;
-    
+      
 }

@@ -1,8 +1,13 @@
 nav{
     background: #797979;
+    height: 70px;
 }
-nav a:not(:last-child){
+nav a{
     margin-right:20px;
+    font-size: 20px;
+}
+nav a:last-child{
+    margin-right: 0;
 }
 .t-name{
     font-size: 25px;
