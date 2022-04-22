@@ -7,7 +7,7 @@ import "./Service.css";
 
 const Service = () => {
   return (
-    <div className="container service">
+    <div className="container service pb-5">
       {/* <h2 className="text-center text-white">This is Service</h2> */}
       <div className="row gx-5 ms-3 p-0">
         <div className="col service-1 text-center">

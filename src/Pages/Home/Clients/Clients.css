@@ -1,0 +1,33 @@
+.client-parent{
+    background: #C4C4C4;
+}
+.clients{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+}
+.for-contact{
+    color: white;
+    background: #000;
+    margin-top: 134px;
+    margin-right: -80px;
+    margin-left: 40px;
+    z-index: 2;
+    position: relative;
+}
+.middle-img{
+    z-index: 1;
+    margin-top: -25px;
+    margin-bottom: 0px;
+}
+.last-img{
+    position: absolute;
+   margin-left: 57%;
+   margin-right: 50px;
+    margin-top: 95px;
+    z-index: 3;
+    box-shadow: -30px -35px #F2E9E4;
+}
+.last-img img{
+    height: 450px;
+}
