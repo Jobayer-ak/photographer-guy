@@ -10,11 +10,11 @@ const Header = () => {
         <Container>
           <Navbar.Brand href="#home">
             {" "}
-            Fotografa
-            <img height="40" src={logo} alt="Photographer Guy" />
+            <span>Fotografa</span>
+            <img height="50" src={logo} alt="Photographer Guy" />
           </Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link to="/home">Home</Nav.Link>
             <Nav.Link href="#features">Services</Nav.Link>
             <Nav.Link href="#pricing">About</Nav.Link>
             <Nav.Link href="#pricing">Contact</Nav.Link>

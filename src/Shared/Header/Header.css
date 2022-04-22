@@ -1,13 +1,16 @@
 nav{
     background: #797979;
 }
-nav a{
+nav a:not(:last-child){
     margin-right:20px;
 }
 .t-name{
     font-size: 25px;
 }
+span{
+    margin-right: -10px;
+}
+
 /* nav img{
-    width: 100px; 
-    height: 30px;
+    margin-left: 2px;
 } */
