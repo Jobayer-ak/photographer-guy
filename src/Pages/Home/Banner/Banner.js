@@ -1,8 +1,8 @@
 import React from "react";
-import "./Home.css";
-import bannerImage from "../../images/banner/banner.png";
+import "./Banner.css";
+import bannerImage from "../../../images/banner/banner.png";
 
-const Home = () => {
+const Banner = () => {
   return (
     <div className="container">
       <div className="banner d-flex">
@@ -24,4 +24,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Banner;
