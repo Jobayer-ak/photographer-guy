@@ -1,0 +1,16 @@
+.follow-me{
+    background: #C4C4C4;
+    padding-top: 55px;
+    justify-content: space-evenly;
+}
+.follow-me-images img{
+    margin-top: 20px;
+    margin-right: 35px;
+    margin-bottom: -53px;
+    height: 252px;
+    width: 300px;
+
+}
+.follow-me-images img:last-child{
+    margin-right: 0;
+}
