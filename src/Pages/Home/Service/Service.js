@@ -18,7 +18,7 @@ const Service = () => {
             Repudiandae quis qui impedit non ad commodi numquam reiciendis et
             odio dolorum.
           </p>
-          <button className="btn btn-info w-100 text-white fs-5">
+          <button className="btn btn-secondary w-100 text-white fs-5">
             Booking
           </button>
         </div>
@@ -30,7 +30,7 @@ const Service = () => {
             Repudiandae quis qui impedit non ad commodi numquam reiciendis et
             odio dolorum.
           </p>
-          <button className="btn btn-info w-100 text-white fs-5">
+          <button className="btn btn-secondary w-100 text-white fs-5">
             Booking
           </button>
         </div>
@@ -42,7 +42,7 @@ const Service = () => {
             Repudiandae quis qui impedit non ad commodi numquam reiciendis et
             odio dolorum.
           </p>
-          <button className="btn btn-info w-100 text-white fs-5">
+          <button className="btn btn-secondary w-100 text-white fs-5">
             Booking
           </button>
         </div>

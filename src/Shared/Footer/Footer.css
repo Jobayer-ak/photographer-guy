@@ -1,0 +1,12 @@
+.footer{
+    height: 150px;
+    padding-top: 100px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+}

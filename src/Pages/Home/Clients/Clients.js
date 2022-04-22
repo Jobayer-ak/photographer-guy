@@ -14,7 +14,7 @@ const Clients = () => {
               Lorem ipsum sit amet consectetur adipisicing elit. Iure laudantium
               reiciendis perspiciatis sequi libero?
             </p>
-            <button className="btn btn-info btn-lg">LET'S CHAT</button>
+            <button className="btn btn-secondary">LET'S CHAT</button>
           </div>
         </div>
         <div className="middle-img">
