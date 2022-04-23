@@ -1,5 +1,8 @@
 .service{
     margin-top: 60px;
+    /* border: 1px solid white; */
+    /* margin-bottom: 60px; */
+    padding: 10px;
 }
 .service-1 img{
     box-shadow: -30px -35px #F2E9E4;
