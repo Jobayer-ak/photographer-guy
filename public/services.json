@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Wedding Photography",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://ibb.co/wz4DCTS"
+    },
+    {
+        "id": 2,
+        "name": "Birthday Photography",
+        "price": "250",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Family Photography",
+        "price": "200",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://ibb.co/syL4BGF"
+    },
+    {
+        "id": 4,
+        "name": "Model Photography",
+        "price": "350",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://ibb.co/JCPTRVz"
+    },
+    {
+        "id": 5,
+        "name": "Event Photography",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://ibb.co/1rfvztT"
+    },
+    {
+        "id": 6,
+        "name": "Wild Photography",
+        "price": "500",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://ibb.co/TKPTFwm"
+    }
+]
