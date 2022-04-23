@@ -2,9 +2,19 @@ import React from "react";
 import "./Service.css";
 
 const Service = ({ service }) => {
-  const { id, name, img, description, price } = service;
-  console.log(name);
-  return <div></div>;
+  const { id, name, imgURL, description, price } = service;
+
+  return (
+    <div className="text-white">
+      <img src={imgURL} alt="" />
+      <h4>{name}</h4>
+      <p>
+        <span>${price}</span>
+      </p>
+      <p className="lead">{description}</p>
+      <button className="btn btn-secondary">Booking</button>
+    </div>
+  );
 };
 
 export default Service;
