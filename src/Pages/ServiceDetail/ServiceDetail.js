@@ -3,7 +3,7 @@ import "./ServiceDetail.css";
 
 const ServiceDetail = () => {
   const { serviceId } = useParams();
-  console.log(serviceId);
+
   return (
     <div>
       <h2 className="text-white">Welcome to detail: {serviceId}</h2>
