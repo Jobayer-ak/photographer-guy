@@ -3,7 +3,6 @@ import Banner from "../Banner/Banner";
 import Clients from "../Clients/Clients";
 import Compliments from "../Compliments/Compliments";
 import FollowMe from "../FollowMe/FollowMe";
-import Service from "../Service/Service";
 import Services from "../Services/Services";
 
 const Home = () => {
@@ -11,7 +10,7 @@ const Home = () => {
     <div>
       <Banner></Banner>
       <Services></Services>
-      <Clients></Clients>
+      {/* <Clients></Clients> */}
       <Compliments></Compliments>
       <FollowMe></FollowMe>
     </div>

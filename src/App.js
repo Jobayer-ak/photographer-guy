@@ -8,6 +8,8 @@ import Header from "./Shared/Header/Header";
 import NotFound from "./Shared/NotFound/NotFound";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
+import Checkout from "./Pages/Checkout/Checkout";
+import ServiceDetail from "./Pages/ServiceDetail/ServiceDetail";
 
 function App() {
   return (
@@ -16,9 +18,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
-        <Route path="/service/:serviceId" element={<Service></Service>}></Route>
+        <Route
+          path="/service/:serviceId"
+          element={<ServiceDetail></ServiceDetail>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
+        <Route path="/checkout" element={<Checkout></Checkout>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
