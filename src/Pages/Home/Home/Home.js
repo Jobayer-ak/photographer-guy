@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../Banner/Banner";
-import Clients from "../Clients/Clients";
+// import Clients from "../Clients/Clients";
 import Compliments from "../Compliments/Compliments";
 import FollowMe from "../FollowMe/FollowMe";
 import Services from "../Services/Services";

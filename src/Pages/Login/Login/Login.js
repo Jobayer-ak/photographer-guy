@@ -6,6 +6,9 @@ import auth from "../../../firebase.init";
 import SocialLogin from "../SocialLogin/SocialLogin";
 import "./Login.css";
 import Loading from "../../../Shared/Loading/Loading";
+import { sendPasswordResetEmail } from "firebase/auth";
+import { ToastContainer, toast } from "react-toastify";
+import { async } from "@firebase/util";
 
 const Login = () => {
   //  hooks
@@ -34,12 +37,24 @@ const Login = () => {
   }
 
   // handling email and password to login with handle submit button
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     const email = emailRef.current.value;
     const password = passwordRef.current.value;
 
-    signInWithEmailAndPassword(email, password);
+    await signInWithEmailAndPassword(email, password);
+  };
+
+  // reset password
+  const resetPassword = () => {
+    const email = emailRef.current.value;
+    console.log("Hello");
+    if (email) {
+      sendPasswordResetEmail(email);
+      toast("Sent Email To Reset Password!");
+    } else {
+      toast("Please Enter Your Email Address!");
+    }
   };
 
   return (
@@ -77,11 +92,15 @@ const Login = () => {
       </p>
       <p className="text-white">
         Forgot Password?
-        <Link to="/login" className="text-decoration-none ms-1">
+        <Link
+          to="/login"
+          onClick={resetPassword}
+          className="text-decoration-none ms-1">
           Reset Password
         </Link>
       </p>
       <SocialLogin></SocialLogin>
+      <ToastContainer />
     </div>
   );
 };
