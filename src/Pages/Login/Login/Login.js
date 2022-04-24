@@ -1,26 +1,39 @@
 import React, { useRef } from "react";
 import { Button, Form } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import auth from "../../../firebase.init";
 import SocialLogin from "../SocialLogin/SocialLogin";
 import "./Login.css";
+import Loading from "../../../Shared/Loading/Loading";
 
 const Login = () => {
   //  hooks
   const emailRef = useRef("");
   const passwordRef = useRef("");
 
+  let errorElement;
+
+  const navigate = useNavigate();
+
   // sign in with email and password
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
+
+  // showing loading
+  if (loading) {
+    return <Loading></Loading>;
+  }
+  // set error message
+  if (error) {
+    errorElement = <p className="text-danger">Error: {error?.message}</p>;
+  }
 
   // handling email and password to login with handle submit button
   const handleSubmit = (event) => {
     event.preventDefault();
     const email = emailRef.current.value;
     const password = passwordRef.current.value;
-    console.log(email, password);
 
     signInWithEmailAndPassword(email, password);
   };
@@ -51,6 +64,7 @@ const Login = () => {
           Login
         </Button>
       </Form>
+      {errorElement}
       <p className="text-white">
         Don't Have Your Account?
         <Link to="/register" className="text-decoration-none ms-1">
