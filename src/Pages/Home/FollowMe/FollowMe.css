@@ -25,6 +25,8 @@
     }
 }
 
+/* make responsive */
+
 @media only screen and (min-width: 577px ) and (max-width: 992px){
     .follow-me-images{
         grid-template-columns: repeat(2, 1fr);

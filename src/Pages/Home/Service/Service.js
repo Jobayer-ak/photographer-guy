@@ -13,7 +13,7 @@ const Service = ({ service }) => {
   return (
     <div className="text-white text-center service">
       <img src={imgURL} alt="" />
-      <h4>{name}</h4>
+      <h4 className="mt-3">{name}</h4>
       <p>
         <span>${price}</span>
       </p>

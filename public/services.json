@@ -25,20 +25,20 @@
         "name": "Model Photography",
         "price": "350",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "imgURL": "https://i.ibb.co/qgV0myy/model.png"
+        "imgURL": "https://i.ibb.co/L0R9nv9/model.jpg"
     },
     {
         "id": 5,
         "name": "Event Photography",
         "price": "300",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "imgURL": "https://i.ibb.co/MpPp4Wv/event.png"
+        "imgURL": "https://i.ibb.co/5BByP0Y/event.jpg"
     },
     {
         "id": 6,
         "name": "Wild Photography",
         "price": "500",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "imgURL": "https://i.ibb.co/s9DHFnr/wild.jpg"
+        "imgURL": "https://i.ibb.co/QY8XXmn/wild.jpg"
     }
 ]
