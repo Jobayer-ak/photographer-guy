@@ -9,30 +9,36 @@ import {
 
 const Footer = () => {
   return (
-    <div className="container footer d-flex justify-content-evenly">
-      <a className="text-decoration-none text-white" href="#">
-        Services
-      </a>
-      <a className="text-decoration-none text-white" href="#">
-        Contact
-      </a>
-      <div className="social-icons">
-        <a href="http://www.facebook.com">
-          <FontAwesomeIcon className="text-white fs-4" icon={faFacebookF} />
+    <div className="">
+      <div className="container footer d-flex justify-content-evenly">
+        <a
+          className="text-decoration-none text-white d-none d-md-block d-lg-block"
+          href="#">
+          Services
         </a>
-        <a href="http://www.twitter.com">
-          <FontAwesomeIcon className="text-white fs-4" icon={faTwitter} />
+        <a
+          className="text-decoration-none text-white d-none d-md-block d-lg-block"
+          href="#">
+          Contact
         </a>
-        <a href="http://www.instagram.com">
-          <FontAwesomeIcon
-            className="text-white fs-4 insta"
-            icon={faInstagram}
-          />
-        </a>
+        <div className="social-icons">
+          <a href="http://www.facebook.com">
+            <FontAwesomeIcon className="text-white fs-4" icon={faFacebookF} />
+          </a>
+          <a href="http://www.twitter.com">
+            <FontAwesomeIcon className="text-white fs-4" icon={faTwitter} />
+          </a>
+          <a href="http://www.instagram.com">
+            <FontAwesomeIcon
+              className="text-white fs-4 insta"
+              icon={faInstagram}
+            />
+          </a>
+        </div>
+        <p className="text-uppercase text-white">
+          copyright &copy;2022 | jobayer
+        </p>
       </div>
-      <p className="text-uppercase text-white">
-        copyright &copy;2022 | jobayer
-      </p>
     </div>
   );
 };

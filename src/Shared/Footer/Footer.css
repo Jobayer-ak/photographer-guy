@@ -10,3 +10,17 @@
 .social-icons a{
     text-decoration: none;
 }
+
+@media only screen and (max-width: 576px) {
+    .footer{
+        height: 100px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 577px ) and (max-width: 991px){
+   .footer{
+       height: 60px;
+       padding-top: 20px;
+   }
+}

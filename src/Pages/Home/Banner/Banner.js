@@ -12,7 +12,7 @@ const Banner = () => {
           alt="Banner Image"
         />
 
-        <div className="about-me ms-3 px-3">
+        <div className="about-me ms-sm-0 ms-lg-3 ms-md-0 px-3">
           <h2 className="text-center about-header">About Me</h2>
           <p className="lead">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
@@ -20,8 +20,10 @@ const Banner = () => {
             magnam aspernatur modi? Nihil minus numquam, molestiae autem non in
             recusandae eligendi nam vitae atque
           </p>
-          <div className="text-center">
-            <button className="btn btn-dark btn-lg mt-4">Let's Chat</button>
+          <div className="text-center mb-sm-2 mb-2">
+            <button className="btn btn-dark btn-lg mt-4 mb-sm-4 mb-md-4">
+              Let's Chat
+            </button>
           </div>
         </div>
       </div>
