@@ -29,6 +29,10 @@ const Login = () => {
     errorElement = <p className="text-danger">Error: {error?.message}</p>;
   }
 
+  if (user) {
+    navigate("/home");
+  }
+
   // handling email and password to login with handle submit button
   const handleSubmit = (event) => {
     event.preventDefault();

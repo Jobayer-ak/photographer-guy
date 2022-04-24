@@ -4,7 +4,7 @@ import "./Checkout.css";
 const Checkout = () => {
   return (
     <div>
-      <h2>This is Check Out Page!</h2>
+      <h2 className="text-white">This is Check Out Page!</h2>
     </div>
   );
 };

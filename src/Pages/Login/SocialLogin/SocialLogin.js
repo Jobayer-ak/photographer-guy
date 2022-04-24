@@ -1,7 +1,6 @@
 import React from "react";
 import "./SocialLogin.css";
 import google from "../../../images/social/google.png";
-import facebook from "../../../images/social/facebook.png";
 import { useSignInWithGoogle } from "react-firebase-hooks/auth";
 import auth from "../../../firebase.init";
 import { useNavigate } from "react-router-dom";
@@ -49,17 +48,6 @@ const SocialLogin = () => {
             alt=""
           />
           <span className="px-2">Google Sign In</span>
-        </button>
-      </div>
-      <div>
-        <button className="btn btn-info w-50 d-block mx-auto my-2">
-          <img
-            style={{ width: "40px" }}
-            className="img-fluid"
-            src={facebook}
-            alt=""
-          />
-          <span className="px-2">Facebook Sign In</span>
         </button>
       </div>
       {errorElement}

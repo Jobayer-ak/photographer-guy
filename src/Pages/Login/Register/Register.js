@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
@@ -7,6 +7,9 @@ import Loading from "../../../Shared/Loading/Loading";
 import "./Register.css";
 
 const Register = () => {
+  // hooks
+  const [agree, setAgree] = useState(false);
+
   const emailRef = useRef("");
   const passwordRef = useRef("");
 
@@ -64,9 +67,16 @@ const Register = () => {
           />
         </Form.Group>
         <Form.Group className="mb-3 text-white">
-          <Form.Check type="checkbox" label="Accept Terms and Conditions" />
+          <Form.Check
+            onClick={() => setAgree(!agree)}
+            type="checkbox"
+            label="Accept Terms and Conditions"
+          />
         </Form.Group>
-        <Button variant="secondary w-50 d-block mx-auto mb-2" type="submit">
+        <Button
+          variant="secondary w-50 d-block mx-auto mb-2"
+          type="submit"
+          disabled={!agree}>
           Register
         </Button>
       </Form>
