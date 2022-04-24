@@ -18,6 +18,7 @@ const Login = () => {
   const location = useLocation();
 
   let from = location.state?.from?.pathname || "/";
+  console.log(from);
 
   let errorElement;
 
@@ -81,7 +82,7 @@ const Login = () => {
           />
         </Form.Group>
 
-        <Button variant="secondary w-50 d-block mx-auto mb-2" type="submit">
+        <Button variant="secondary w-50 d-block mx-auto mb-3 " type="submit">
           Login
         </Button>
       </Form>
