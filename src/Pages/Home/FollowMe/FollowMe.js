@@ -8,7 +8,7 @@ import followme4 from "../../../images/follow-me/follow4.png";
 
 const FollowMe = () => {
   return (
-    <div className="container-fluid follow-me">
+    <div id="followme" className="container-fluid follow-me">
       <h2 className="text-center">FOLLOW ME @Jobayer_AK</h2>
       <div className="follow-me-images d-flex container">
         <img src={followme} alt="" />
