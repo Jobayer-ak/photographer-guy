@@ -13,6 +13,7 @@ import ServiceDetail from "./Pages/ServiceDetail/ServiceDetail";
 import Login from "./Pages/Login/Login/Login";
 import Register from "./Pages/Login/Register/Register";
 import RequireAuth from "./Pages/Login/RequireAuth/RequireAuth";
+import Blog from "./Pages/Blog/Blog";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route
           path="/service/:serviceId"
           element={<ServiceDetail></ServiceDetail>}></Route>
+        <Route path="/blog" element={<Blog></Blog>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route
