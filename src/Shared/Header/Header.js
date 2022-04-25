@@ -17,7 +17,7 @@ const Header = () => {
   };
   return (
     <>
-      <Navbar variant="dark" expand="lg">
+      <Navbar variant="dark" expand="lg" sticky="top">
         <Container>
           <Navbar.Brand to="/" className="fs-2">
             Fotógrafa

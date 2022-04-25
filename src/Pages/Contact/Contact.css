@@ -1,0 +1,14 @@
+.handle-form{
+    width: 50%;
+}
+
+@media only screen and (max-width: 576px) {
+    .handle-form{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width:992px) {
+    .handle-form{
+        width: 50%;
+    }
+}

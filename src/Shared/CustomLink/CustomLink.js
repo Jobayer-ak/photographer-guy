@@ -14,15 +14,6 @@ function CustomLink({ children, to, ...props }) {
     position: "relative",
     color: "orange",
     textDecoration: "none",
-    "&:hover": {
-      background: "green",
-    },
-
-    // "&:after": {
-    //   content: "",
-    //   position: "absolute",
-    //   height: 2,
-    // },
   };
 
   let customLinkN = {

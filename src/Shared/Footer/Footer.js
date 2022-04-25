@@ -22,38 +22,36 @@ const Footer = () => {
     navigate("/contact");
   };
   return (
-    <div className="">
-      <div className="container footer d-flex justify-content-evenly">
-        <a
-          onClick={handleToService}
-          className="text-decoration-none text-white d-none d-md-block d-lg-block"
-          href="/home#services">
-          Services
+    <div className="container footer d-flex justify-content-evenly">
+      <a
+        onClick={handleToService}
+        className="text-decoration-none text-white d-none d-md-block d-lg-block"
+        href="/home#services">
+        Services
+      </a>
+      <a
+        onClick={handleToContact}
+        className="text-decoration-none text-white d-none d-md-block d-lg-block"
+        href="#">
+        Contact
+      </a>
+      <div className="social-icons">
+        <a href="http://www.facebook.com">
+          <FontAwesomeIcon className="text-white fs-4" icon={faFacebookF} />
         </a>
-        <a
-          onClick={handleToContact}
-          className="text-decoration-none text-white d-none d-md-block d-lg-block"
-          href="#">
-          Contact
+        <a href="http://www.twitter.com">
+          <FontAwesomeIcon className="text-white fs-4" icon={faTwitter} />
         </a>
-        <div className="social-icons">
-          <a href="http://www.facebook.com">
-            <FontAwesomeIcon className="text-white fs-4" icon={faFacebookF} />
-          </a>
-          <a href="http://www.twitter.com">
-            <FontAwesomeIcon className="text-white fs-4" icon={faTwitter} />
-          </a>
-          <a href="http://www.instagram.com">
-            <FontAwesomeIcon
-              className="text-white fs-4 insta"
-              icon={faInstagram}
-            />
-          </a>
-        </div>
-        <p className="text-uppercase text-white">
-          copyright &copy;2022 | jobayer
-        </p>
+        <a href="http://www.instagram.com">
+          <FontAwesomeIcon
+            className="text-white fs-4 insta"
+            icon={faInstagram}
+          />
+        </a>
       </div>
+      <p className="text-uppercase text-white">
+        copyright &copy;2022 | jobayer
+      </p>
     </div>
   );
 };

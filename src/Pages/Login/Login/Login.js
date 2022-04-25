@@ -69,9 +69,9 @@ const Login = () => {
   };
 
   return (
-    <div className="container w-50 mx-auto">
+    <div className="container text-center  w-50 handle-login">
       <h2 className="text-white text-center my-4">Please Login</h2>
-      <Form onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit} className="mx-auto">
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Control
             ref={emailRef}
@@ -90,12 +90,14 @@ const Login = () => {
           />
         </Form.Group>
 
-        <Button variant="secondary w-50 d-block mx-auto mb-3 " type="submit">
+        <Button
+          variant="secondary w-50 w-md-50 d-block mx-auto mb-3 "
+          type="submit">
           Login
         </Button>
       </Form>
       {errorElement}
-      <p className="text-white">
+      <p className="text-white ">
         Don't Have Your Account?
         <Link to="/register" className="text-decoration-none ms-1">
           Please Register

@@ -1,3 +1,4 @@
+
 .footer{
     height: 150px;
     padding-top: 100px;
@@ -14,6 +15,7 @@
 
 @media only screen and (max-width: 576px) {
     .footer{
+        /* margin-top: 100px; */
         height: 100px;
         padding-top: 30px;
         padding-bottom: 20px;
@@ -21,6 +23,7 @@
 }
 @media only screen and (min-width: 577px ) and (max-width: 991px){
    .footer{
+       /* margin-top: 250px; */
        height: 60px;
        padding-top: 20px;
    }
