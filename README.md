@@ -4,9 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Using Technololigies:
 
-*React.js
-*React Router
-*React bootstrap
-*React toastify
-*React firebase hooks
-*React hooks and so on.
+- React.js
+- React Router
+- React bootstrap
+- React toastify
+- React firebase hooks
+- React hooks and so on.
