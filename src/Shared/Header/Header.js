@@ -8,8 +8,10 @@ import auth from "../../firebase.init";
 import { signOut } from "firebase/auth";
 
 const Header = () => {
+  // hooks
   const [user] = useAuthState(auth);
 
+  // handle logout button
   const handleLogOut = () => {
     signOut(auth);
   };

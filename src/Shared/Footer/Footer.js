@@ -6,17 +6,32 @@ import {
   faInstagram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  // hooks
+  const navigate = useNavigate();
+
+  // handle toService button
+  const handleToService = () => {
+    navigate("/home");
+  };
+
+  // handle toContact button
+  const handleToContact = () => {
+    navigate("/contact");
+  };
   return (
     <div className="">
       <div className="container footer d-flex justify-content-evenly">
         <a
+          onClick={handleToService}
           className="text-decoration-none text-white d-none d-md-block d-lg-block"
           href="#">
           Services
         </a>
         <a
+          onClick={handleToContact}
           className="text-decoration-none text-white d-none d-md-block d-lg-block"
           href="#">
           Contact
