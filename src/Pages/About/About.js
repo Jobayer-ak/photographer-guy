@@ -16,7 +16,7 @@ const About = () => {
           attracts me to play with it. It was really hard to change career path
           as a textitle engineering field to computer science. But i am
           determined and devoted that i have to be web developer. It is only
-          hope and dream.
+          hope and dream. I will never give up to be a web developer.
         </p>
       </div>
     </div>

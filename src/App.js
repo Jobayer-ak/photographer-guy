@@ -1,8 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./Pages/Home/Home/Home";
-import Service from "./Pages/Home/Service/Service";
-
 import Footer from "./Shared/Footer/Footer";
 import Header from "./Shared/Header/Header";
 import NotFound from "./Shared/NotFound/NotFound";

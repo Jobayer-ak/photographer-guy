@@ -3,8 +3,8 @@ import "./NotFound.css";
 
 const NotFound = () => {
   return (
-    <div>
-      <h2>This is Not found Page!</h2>
+    <div className="container">
+      <h2 className="text-white text-center py-5">404! Page Is Not Found!</h2>
     </div>
   );
 };
