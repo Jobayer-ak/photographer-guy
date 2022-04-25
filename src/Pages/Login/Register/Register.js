@@ -9,21 +9,24 @@ import "./Register.css";
 const Register = () => {
   // hooks
   const [agree, setAgree] = useState(false);
-
   const emailRef = useRef("");
   const passwordRef = useRef("");
 
   let errorElement;
 
+  // create user
   const [createUserWithEmailAndPassword, user, loading, error] =
     useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
+  // update profile
+  const [updateProfile, updating, updateError] = useUpdateProfile(auth);
+
   // showing loading spinner
-  if (loading) {
+  if (loading || updating) {
     return <Loading></Loading>;
   }
   // set error message
-  if (error) {
+  if (error || updateError) {
     errorElement = <p className="text-danger">Error: {error?.message}</p>;
   }
 
