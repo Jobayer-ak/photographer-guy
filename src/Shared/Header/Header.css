@@ -9,13 +9,5 @@ nav a{
 nav a:last-child{
     margin-right: 0;
 }
-.t-name{
-    font-size: 25px;
-}
-span{
-    margin-right: -10px;
-}
 
-/* nav img{
-    margin-left: 2px;
-} */
+

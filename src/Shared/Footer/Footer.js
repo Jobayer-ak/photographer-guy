@@ -27,7 +27,7 @@ const Footer = () => {
         <a
           onClick={handleToService}
           className="text-decoration-none text-white d-none d-md-block d-lg-block"
-          href="#">
+          href="/home#services">
           Services
         </a>
         <a

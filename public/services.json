@@ -17,28 +17,28 @@
         "id": 3,
         "name": "Family Photography",
         "price": "200",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Your family is precious to you, but finding time to get together and get professional pictures taken is a huge hassle. You’re a busy parent, and it’s hard to find the energy to search for photographers and schedule a photoshoot. ",
         "imgURL": "https://i.ibb.co/2PMwLLg/familyjpg.jpg"
     },
     {
         "id": 4,
         "name": "Model Photography",
         "price": "350",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Clients can avail from me services with regard to modeling photography. Our photographers are known for putting the model at ease and getting the best shots in a relaxed atmosphere. They are capable of focusing on the relevant areas, which are in sync with the client’s final project and objective",
         "imgURL": "https://i.ibb.co/L0R9nv9/model.jpg"
     },
     {
         "id": 5,
         "name": "Event Photography",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "As much as we love our photo booths, we know that there is much more going on at an event. Professional event photography can capture candid shots of guests having a great time, group portraits, all the hard work that went into setting the event up, and everything in between.",
         "imgURL": "https://i.ibb.co/5BByP0Y/event.jpg"
     },
     {
         "id": 6,
-        "name": "Wild Photography",
+        "name": "Wild Life Photography",
         "price": "500",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "I provide Photography Tours in good location I know the wild life we help to make good click.",
         "imgURL": "https://i.ibb.co/4j3zvZM/animal.jpg"
     }
 ]

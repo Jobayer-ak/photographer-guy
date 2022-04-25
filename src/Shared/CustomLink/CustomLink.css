@@ -1,0 +1,11 @@
+.custom-link {
+    text-decoration: none; 
+    position: relative; 
+    color: white;
+  }   
+
+ .custom-link:after {
+     position: absolute;
+     content: '';
+     height: 2px;
+ }

@@ -7,20 +7,16 @@ const About = () => {
     <div className="container about">
       <img className="img-fluid w-50" src={myimage} alt="" />
       <div className="text-white details px-2">
-        <h4 className="uppercase">I am jobayer</h4>
+        <h4 className="uppercase">Hi,</h4>
         <p className="lead">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-          officia rerum suscipit laboriosam velit? Dignissimos dolor quam
-          tempore, delectus dolorum sint blanditiis est doloremque alias magni
-          accusantium temporibus facere beatae repudiandae sapiente quasi,
-          laboriosam debitis veritatis corrupti repellat exercitationem eaque
-          assumenda rem! Quo autem sit quibusdam, cum aliquid nulla laborum
-          doloremque magnam, perferendis nam ullam voluptate quia omnis quaerat
-          voluptatibus adipisci expedita impedit, modi amet dolores repellendus
-          suscipit earum distinctio. Natus, beatae quo consequatur sint
-          blanditiis nobis et corrupti eius sequi ut id quia repellat assumenda
-          voluptates eos culpa error quod reprehenderit reiciendis maiores.
-          Magnam provident a quos voluptate sapiente?
+          I am Jobayer. I am a student. I have been learning web development for
+          5 months. I have made decision that i will be a web developer. This is
+          my only hope. Even i have studied diploma in Textile Engineerin but i
+          love to do coding. Technology specially computer programming always
+          attracts me to play with it. It was really hard to change career path
+          as a textitle engineering field to computer science. But i am
+          determined and devoted that i have to be web developer. It is only
+          hope and dream.
         </p>
       </div>
     </div>
