@@ -3,7 +3,7 @@ import "./FollowMe.css";
 import followme from "../../../images/follow-me/follow.png";
 import followme1 from "../../../images/follow-me/follow1.png";
 import followme2 from "../../../images/follow-me/follow2.png";
-import followme3 from "../../../images/follow-me/follow3.png";
+import followme3 from "../../../images/follow-me/follow3.1.jpg";
 import followme4 from "../../../images/follow-me/follow4.png";
 
 const FollowMe = () => {

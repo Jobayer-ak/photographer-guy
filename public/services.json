@@ -3,15 +3,15 @@
         "id": 1,
         "name": "Wedding Photography",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "I am proficient enough in providing superior Wedding Candid Photography. I ensure innovative, advanced, enhanced and reliable services with satisfaction at the leading market pricing.",
         "imgURL": "https://i.ibb.co/GxThV78/wedding.jpg"
     },
     {
         "id": 2,
         "name": "Birthday Photography",
         "price": "250",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "imgURL": "https://i.ibb.co/WVnnbg1/birthday.jpg"
+        "description": "I am successfully service providers of Birthday Party Photography Services. I make use of the most up-to-date equipment like still and digital cameras.",
+        "imgURL": "https://i.ibb.co/27F4YGQ/birthday-3.png"
     },
     {
         "id": 3,
@@ -39,6 +39,6 @@
         "name": "Wild Photography",
         "price": "500",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "imgURL": "https://i.ibb.co/QY8XXmn/wild.jpg"
+        "imgURL": "https://i.ibb.co/4j3zvZM/animal.jpg"
     }
 ]
