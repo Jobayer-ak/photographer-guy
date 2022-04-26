@@ -36,13 +36,13 @@ const Footer = () => {
         Contact
       </a>
       <div className="social-icons">
-        <a href="http://www.facebook.com">
+        <a href="http://www.facebook.com" target="_blank">
           <FontAwesomeIcon className="text-white fs-4" icon={faFacebookF} />
         </a>
-        <a href="http://www.twitter.com">
+        <a href="http://www.twitter.com" target="_blanck">
           <FontAwesomeIcon className="text-white fs-4" icon={faTwitter} />
         </a>
-        <a href="http://www.instagram.com">
+        <a href="http://www.instagram.com" target="_blank">
           <FontAwesomeIcon
             className="text-white fs-4 insta"
             icon={faInstagram}
