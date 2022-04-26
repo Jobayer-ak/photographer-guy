@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This is the live site link: [photographer guy](https://github.com/facebook/create-react-app).
+This is the live site link: [photographer guy](https://photographer-guy-a10.web.app).
 
 ## Using Technololigies:
 
